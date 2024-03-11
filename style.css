@@ -1,0 +1,330 @@
+.body {
+    margin: 0;
+}
+/*    HEADER / NAVBAR    */
+.splash-page {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 5%;
+
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  text-transform: lowercase;
+}
+
+.nav-button {
+  padding: 0px 15px;
+}
+
+.nav-button, a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.25s ease 0s;
+}
+
+.nav-button, a:hover {
+  /* text-decoration: underline; */
+  color: 	#FFD700;
+}
+
+.inner {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/*    ABOUT    */
+.summary {
+  color: white;
+  background-image: url('https://c.files.bbci.co.uk/D505/production/_115033545_gettyimages-1226314512.jpg');
+
+  padding: 8%;
+  padding-left: 8%;
+  padding-right: 33%;
+
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.headline {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+  
+.summary-text {
+  font-weight: lighter;
+  font-size: 40px;
+}
+  
+.survey-button {
+  font-size: 30px;
+  width: 120px;
+  height: 45px;
+  border: none;
+  color: #fff;
+  background-color: #FF0000;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.up-arrow {
+  color: white;
+}
+
+
+.navigationbar {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 5%;
+  line-height: 2em;
+}
+
+.dropdown {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+
+.dropdown button {
+  background: none;
+  border: none;
+  color: black;
+  /*padding: 5px 5px;*/
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.ucsc {
+  position: relative;
+}
+
+.outside {
+  position: relative;
+}
+
+.stuff {
+  position: relative;
+}
+
+.ucsc ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style: none;
+  margin-top: 1px;
+}
+
+.home:hover button {
+  transform: scale(1.5);
+}
+
+.ucsc:hover button {
+  transform: scale(1.5);
+}
+
+.outside:hover button {
+  transform: scale(1.5);
+}
+
+.stuff:hover button {
+  transform: scale(1.5);
+}
+
+.FAQ:hover button {
+  transform: scale(1.5);
+}
+
+.outside ul {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style: none;
+  margin-top: 1px;
+}
+
+.stuff ul {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style: none;
+  margin-top: 1px;
+}
+
+.ucsc li, .outside li, .stuff li{
+  width: 90%;
+  height: 90%;
+  display: relative;
+  justify-content: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+
+.dropdown:hover .home ul{
+  display: block
+}
+
+.dropdown:hover .ucsc ul{
+  display: block;
+}
+
+.dropdown:hover .outside ul{
+  display: block;
+}
+
+.dropdown:hover .stuff ul{
+  display: block;
+}
+
+.about-desc {
+  color: #000000;
+
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-left: 8%;
+  padding-right: 33%;
+
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.headline-2 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+.about-text {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #696969;
+  line-height: 2em;
+}
+
+.freq {
+  max-width: 800px;
+  margin: 5vh auto;
+  padding: 20px;
+}
+
+.headline-3 {
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.faq {
+  padding-right: 0px;
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid rgba(0,0,0,.1);
+  border-radius: 5px;
+  margin-left: 5em;
+  margin-right: 5em;
+  color: #979797;
+  position: relative;
+  line-height: 2em;
+  margin-top: 15px;
+}
+
+.faq .faq-text {
+  width: 90%;
+}
+
+.btn {
+  color: #5e5d5d;
+  position: absolute;
+  right: 25px;
+  top: 35px;
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.faq-question {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #000000;
+  font-family: sans-serif;
+}
+ 
+.faq-answer {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #5e5d5d;
+  font-family: sans-serif;
+}
+
+
+/*    CONTACT    */
+.contact-info {
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+  margin-left: 0;
+  margin-right: 0;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.contact-links {
+  letter-spacing: 0.1em;
+  margin-left: 2.5em
+}
+
+.contact-text {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: 750;
+}
+
+
+
